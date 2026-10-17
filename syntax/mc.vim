@@ -12,29 +12,30 @@ syn case match
 
 " Keywords
 syntax keyword mcoreKeyword
-      \ con
-      \ else
-      \ end
-      \ fix
       \ if
-      \ in
-      \ lam
+      \ then
+      \ else
+      \ match
+      \ with
+      \ utest
+      \ type
+      \ con
       \ lang
       \ let
-      \ match
       \ recursive
-      \ sem
+      \ lam
+      \ in
+      \ end
       \ syn
-      \ then
-      \ type
+      \ sem
       \ use
-      \ utest
-      \ with
+      \ never
       \ using
       \ external
-      \ hole
       \ switch
       \ case
+      \ all
+      \ hole
 
 " Booleans
 syntax keyword mcoreBooleans
